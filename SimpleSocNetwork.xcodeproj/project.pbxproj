@@ -10,7 +10,6 @@
 		599A6F702BBD72DE00031008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599A6F6F2BBD72DE00031008 /* AppDelegate.swift */; };
 		599A6F722BBD72DE00031008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599A6F712BBD72DE00031008 /* SceneDelegate.swift */; };
 		599A6F742BBD72DE00031008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599A6F732BBD72DE00031008 /* ViewController.swift */; };
-		599A6F772BBD72DE00031008 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 599A6F762BBD72DE00031008 /* Base */; };
 		599A6F7A2BBD72DE00031008 /* SimpleSocNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 599A6F782BBD72DE00031008 /* SimpleSocNetwork.xcdatamodeld */; };
 		599A6F7C2BBD72DF00031008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599A6F7B2BBD72DF00031008 /* Assets.xcassets */; };
 		599A6F7F2BBD72DF00031008 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 599A6F7E2BBD72DF00031008 /* Base */; };
@@ -21,7 +20,6 @@
 		599A6F6F2BBD72DE00031008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		599A6F712BBD72DE00031008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		599A6F732BBD72DE00031008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		599A6F762BBD72DE00031008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		599A6F792BBD72DE00031008 /* SimpleSocNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleSocNetwork.xcdatamodel; sourceTree = "<group>"; };
 		599A6F7B2BBD72DF00031008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		599A6F7E2BBD72DF00031008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				599A6F6F2BBD72DE00031008 /* AppDelegate.swift */,
 				599A6F712BBD72DE00031008 /* SceneDelegate.swift */,
 				599A6F732BBD72DE00031008 /* ViewController.swift */,
-				599A6F752BBD72DE00031008 /* Main.storyboard */,
 				599A6F7B2BBD72DF00031008 /* Assets.xcassets */,
 				599A6F7D2BBD72DF00031008 /* LaunchScreen.storyboard */,
 				599A6F802BBD72DF00031008 /* Info.plist */,
@@ -130,7 +127,6 @@
 			files = (
 				599A6F7C2BBD72DF00031008 /* Assets.xcassets in Resources */,
 				599A6F7F2BBD72DF00031008 /* Base in Resources */,
-				599A6F772BBD72DE00031008 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		599A6F752BBD72DE00031008 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				599A6F762BBD72DE00031008 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		599A6F7D2BBD72DF00031008 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,7 +289,6 @@
 				INFOPLIST_FILE = SimpleSocNetwork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +298,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bashmakov.SimpleSocNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,7 +320,6 @@
 				INFOPLIST_FILE = SimpleSocNetwork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,6 +329,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bashmakov.SimpleSocNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
